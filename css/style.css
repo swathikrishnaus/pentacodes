@@ -1,0 +1,190 @@
+body{
+    font-family: Montserrat;
+    font-size: 13px;
+}
+.navbar .navbar-brand img{
+    width: 200px;
+    height: auto;
+}
+.navbar .nav-item .nav-link img{
+    width: 20px;
+    height: auto;
+}
+.navbar .nav-item {
+    padding: 10px;
+}
+.navbar .quote-btn{
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 1px solid #168C72;
+    color: #168C72;
+    border-radius: 15px;
+}
+
+
+/* --------------------common css start---------------- */
+
+.main-color{
+    color: #07725B;
+}
+.sub-head-color{
+    color: #252525;
+}
+.para-color{
+    color: #999999;
+}
+.button-style{
+    background-color: #19967A;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    border: 0;
+}
+.button-style:hover{
+    background-color: transparent;
+    border: 1px solid #19967A;
+    color: #19967A;
+}
+
+/* ------------------------------------------------- */
+
+
+
+
+/* ------------------home start-------------------- */
+
+.home{
+    margin-top: 100px;
+    background: url("../images/navigation/BG&IMG.png");
+    border-radius: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.home h1{
+    margin-top: 100px;
+    font-size: 45px;
+}
+.home .bold-letter{
+    font-weight: 900;
+    line-height: 20px;
+}
+.home button{
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.home .contact-us{
+    background-color: white;
+    color: #07725B;
+}
+.home .contact-us:hover{
+    opacity: 0.7;
+}
+.home .consult{
+    background-color: #168C72;
+    color: #ffffff;
+}
+.home .consult:hover{
+    opacity: 0.7;
+}
+.home .icon-bg{
+    width: 40px;
+    height: 40px;
+    background-color: #05735B;
+    padding: 10px;
+    border-radius: 5px;
+}
+.home .icon-bg i{
+    color: white;
+    font-size: 15px;
+}
+.home-icons{
+    float: right;
+    margin-top: 250px;
+}
+.home .home-texts{
+    margin: 50px;
+}
+.home .works{
+    background-color: #0C1A23;
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+.home .works img{
+    width: 80px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+.home .border-right{
+    border-right: 1px solid #395D74;
+}
+/* .home .each-work:hover{
+    background-color: #19967A;
+    width: 100px;
+    margin: 0 auto;
+    height: 150px;
+    border-radius: 20px;
+    top: 0;
+} */
+
+
+/* ------------------home end-------------------- */
+
+
+
+/* ------------------about start-------------------- */
+
+.about{
+    margin-top: 250px;
+}
+.about .about-column{
+    background: url("../images/about/about-column.png");
+    padding: 30px;
+    border-radius: 15px;
+    height: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about .column-text{
+    justify-content: center;
+}
+/* .about .card-bg{
+    background: url("../images/about/about-card-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    height: 200px;
+} */
+.about .card-bg{
+    padding: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-radius: 20px;
+    width: 250px;
+    height: 100%;
+}
+.about .circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #C0DED7;
+    margin-right: -50px;
+}
+.about .about-contents{
+    margin-left: 80px;
+}
+
+
+/* ------------------about end-------------------- */
