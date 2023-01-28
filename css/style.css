@@ -261,5 +261,77 @@ body{
 .our-services{
     margin-top: 150px;
 }
+.our-services .card{
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    transition: 0.3s ease;
+}
+.our-services .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.our-services img{
+    width: 60px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.our-services .carousel-inner{
+    padding: 20px;
+}
+.our-services .carousel-indicators{
+    bottom: -10%;
+}
+.our-services .carousel-indicators button.active{
+    width: 25px;
+    border-radius: 15px;
+}
+.our-services .carousel-indicators button{
+    background-color: #05735B;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    
+}
 
 /* ------------------our-services end-------------------- */
+
+
+
+/* ------------------special-projects start-------------------- */
+
+.special-projects{
+    margin-top: 150px;
+    background: url("../images/special-projects/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+}
+.special-projects .special-carousel{
+    margin-top: 50px;
+}
+.special-projects .project-name b{
+    font-weight:normal;
+    font-size: 15px;
+}
+.special-projects .left-img{
+    width: 500px;
+    height: auto;
+}
+.special-projects .right-icon{
+    width: 40px;
+    height: auto;
+}
+/.special-carousel .icons p{
+    margin-top: 10px;
+}
+
+/* ------------------special-projects end-------------------- */
