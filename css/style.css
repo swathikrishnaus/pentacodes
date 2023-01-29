@@ -47,6 +47,9 @@ body{
     border: 1px solid #19967A;
     color: #19967A;
 }
+.light-green{
+    color: #4AAD97;
+}
 
 /* ------------------------------------------------- */
 
@@ -312,8 +315,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
-    padding: 50px;
+    height: 100%;
+    padding: 100px 50px;
 }
 .special-projects .special-carousel{
     margin-top: 50px;
@@ -327,11 +330,307 @@ body{
     height: auto;
 }
 .special-projects .right-icon{
-    width: 40px;
+    width: 35px;
     height: auto;
 }
-.special-carousel .icons p{
-    margin-top: 10px;
+.special-projects .right-contents{
+    margin: 50px;
+}
+.special-projects .carousel-indicators{
+    float: left;
+    display: block;
+    bottom: 0;
+}
+.special-projects .carousel-indicators button{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #05735B;
+    /* float: left; */
+}
+.special-projects .carousel-control-prev-icon{
+    width: 20px;
+}
+.special-projects .carousel-control-next-icon{
+    width: 20px;
+    margin-left: 350px;
+}
+.next-pre-icon{
+    background-color: transparent;
+    border: 0;
+}
+.special-projects .carousel-indicators button.active {
+    width: 20px;
+    border-radius: 40%;
+    background-color: #ffffff;
+}
+.special-projects i{
+    font-size: 10px;
+    color: blueviolet;
 }
 
 /* ------------------special-projects end-------------------- */
+
+
+
+/* ------------------portfolio start-------------------- */
+
+.portfolio{
+    margin-top: 150px;
+}
+.portfolio .container{
+	max-width: 1170px;
+	margin:auto;
+}
+.portfolio .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.portfolio img{
+	max-width: 100%;
+	vertical-align: middle;
+}
+/*.gallery*/
+.portfolio .gallery{
+	width: 100%;
+	display: block;
+	min-height: 100vh;
+	margin-top: 50px;
+}
+.portfolio .gallery .gallery-filter{
+	padding: 0 15px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.portfolio .gallery .gallery-filter .filter-item{
+	color: #696262;
+	display: inline-block;
+	margin:0 10px;
+	cursor: pointer;
+	line-height: 1.2;
+	transition: all 0.3s ease;
+}
+.portfolio .gallery .gallery-filter .filter-item.active{
+	color: #05735B;
+}
+.portfolio .gallery .gallery-item{
+	width: calc(100% / 3);
+	padding: 15px;
+}
+.portfolio .gallery .gallery-item-inner img{
+	width: 100%;
+}
+.portfolio .gallery .gallery-item.show{
+	animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.portfolio .gallery .gallery-item.hide{
+	display: none;
+}
+
+/*responsive*/
+@media(max-width: 991px){
+	.portfolio .gallery .gallery-item{
+		width: 50%;
+	}
+}
+@media(max-width: 767px){
+    .portfolio .gallery .gallery-item{
+		width: 100%;
+	}	
+	.portfolio .gallery .gallery-filter .filter-item{
+		margin-bottom: 10px;
+	}
+}
+
+/* ------------------portfolio end-------------------- */
+
+
+/* ------------------testimonial start-------------------- */
+
+.testimonial{
+    margin-top: 150px;
+    background: url("../images/testimonial/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    padding: 100px 50px;
+}
+.testimonial .client-word{
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 50px;
+}
+.testimonial .client-profile{
+    width: 50px;
+    height: auto;
+}
+.testimonial .client-name{
+    font-size: 18px;
+}
+.testimonial .designation{
+    color: #4AAD97;
+    letter-spacing: 0.3em;
+    font-size: 12px;
+}
+.testimonial .google{
+    width: 20px;
+    height: auto;
+}
+.testimonial .stars i{
+    /* font-size: 12px; */
+    color: #FEC303;
+}
+.testimonial .client-say{
+    color: #F1F1F1;
+    width: 70%;
+}
+.testimonial .carousel-indicators{
+    bottom: -25%;
+}
+.testimonial .carousel-indicators button{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+.testimonial .carousel-indicators button.active{
+    width: 25px;
+    border-radius: 40px;
+}
+.testimonial .client-say{
+    margin: 0 auto;
+    display: block;
+}
+.testimonial .review{
+    margin: 0 auto;
+    display: block;
+}
+.testimonial .our-news{
+    margin-top: 100px;
+}
+.testimonial .our-news-cards{
+    margin-top: 50px;
+}
+.testimonial .our-news-cards .card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+.our-news .date-bg{
+    background-color: #05735B;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 90px;
+}
+.our-news .date-bg p{
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.testimonial .our-news-cards .card i{
+    font-size: 15px;
+}
+.testimonial .our-news-cards .card a{
+    transition: 0.3s ease;
+    letter-spacing: 0.3rem;
+}
+.testimonial .our-news-cards .card a:hover{
+    color: #1a7460;
+}
+
+/* ------------------testimonial end-------------------- */
+
+
+/* ------------------contact start-------------------- */
+
+.contact .contact-bg{
+    background: url("../images/footer/contact-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    height: 100%;
+    padding: 50px;
+    border-radius: 30px;
+    position: relative;
+}
+.contact{
+    margin-top: 300px;
+}
+.contact form{
+    margin-top: 50px;
+    background-color: transparent;
+}
+.contact form input, .contact form textarea{
+    background-color: transparent;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+.contact form input::placeholder, .contact form textarea::placeholder{
+    color: white;
+    font-size: 13px;
+}
+.contact .contact-img{
+    width: 80px;
+    height: auto;
+}
+.contact .contact-details{
+    padding: 50px;
+}
+.contact .contact-texts{
+    color: #CCCCCC;
+    width: 70%;
+}
+.contact .call a{
+    transition: 0.3s ease;
+    color: white;
+}
+.contact .call a:hover{
+    color: #4AAD97;
+}
+
+/* ------------------contact end-------------------- */
+
+
+/* ------------------footer start-------------------- */
+
+.footer{
+    background: url("../images/footer/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    margin-top: -200px;
+    padding-top: 300px;
+}
+.footer .footer-logo{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.footer .footer-para{
+    width: 60%;
+    margin: 0 auto;
+    color: #BEBEBE;
+}
+.footer .flag img{
+    width: 50px;
+    height: auto;
+}
