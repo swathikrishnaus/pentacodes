@@ -69,6 +69,7 @@ body{
     background-position: center;
     background-size: cover;
     height: 100vh;
+    width: 100%;
 }
 .home h1{
     margin-top: 100px;
@@ -115,33 +116,29 @@ body{
 .home .home-texts{
     margin: 50px;
 }
-.home .works{
+.home-bar{
+    margin-top: -250px;
+    padding: 20px;
+}
+.home-bar .works{
     background-color: #0C1A23;
     width: 70%;
-    height: 200px;
+    height: 100%;
     margin: 0 auto;
     padding: 50px;
     border-radius: 15px;
     margin-top: 150px;
 }
-.home .works img{
+.home-bar .works .each-work img{
     width: 80px;
     height: auto;
     margin: 0 auto;
     display: block;
     position: relative;
 }
-.home .border-right{
+.home-bar .border-right{
     border-right: 1px solid #395D74;
 }
-/* .home .each-work:hover{
-    background-color: #19967A;
-    width: 100px;
-    margin: 0 auto;
-    height: 150px;
-    border-radius: 20px;
-    top: 0;
-} */
 
 
 /* ------------------home end-------------------- */
@@ -463,7 +460,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 120vh;
+    height: 90vh;
     padding: 100px 50px;
 }
 .testimonial .client-word{
@@ -548,6 +545,23 @@ body{
 .testimonial .our-news-cards .card a:hover{
     color: #1a7460;
 }
+@media(max-width: 991px){
+    .testimonial{
+        height: 100%;
+        padding: 10px;
+    }
+    .testimonial .client-say{
+        width: 100%;
+    }
+    .testimonial .our-news {
+        margin-top: 200px;
+        padding: 20px;
+    }
+    .testimonial .top-margin{
+        margin-top: 10px;
+    }
+    
+}
 
 /* ------------------testimonial end-------------------- */
 
@@ -601,6 +615,22 @@ body{
 }
 .contact .call a:hover{
     color: #4AAD97;
+}
+@media(max-width: 991px){
+    .contact .contact-bg{
+        margin-top: 200px;
+    }
+    .contact .photo-review{
+        flex-wrap: wrap;
+        display: block;
+    }
+    .contact .contact-img{
+        margin: 0 auto;
+        display: block;
+    }
+    .contact .contact-texts{
+        width: 100%;
+    }
 }
 
 /* ------------------contact end-------------------- */
