@@ -976,13 +976,115 @@ body{
     background-repeat: no-repeat;
     /* background-size: cover; */
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     border-radius: 100px 100px 0px 0px;
     padding-top: 150px;
+    padding-bottom: 150px;
 }
-.graphic .large-bar{
+.home-service{
+    background-color: #4AAD97;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.graphic-about-details{
+    margin-top: 80px
+}
+.graphic-about img{
+    width: 500px;
+    height: auto;
+}
+.graphic-about{
+    background: url("../images/graphic/bg-2.png");
+    padding-top: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.graphic-icons .icon-bg{
     background-color: #05735B;
+    width: 30px;    
+    height: 29px;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 6px;
+}
+.graphic-icons .icon-bg {
+    color: white;
+    margin-left: 50px;
+}
+.graphic-about .whatsapp{
+    margin-left: 2px;
+}
+.graphic-icons{
+    float: right;
+    right: 0;
+    display: block;
+}
+.graphic-services {
+    margin-top: 100px;
+}
+.graphic-services .arrow-bg {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #07725B;
+    /* padding: 2px; */
+}
+.graphic-services .arrow-bg i{
+    color: white;
+    font-size: 10px;
+    margin-left: 4px;
+}
+.graphic-services .arrow{
+    height: 60%;
+    bottom: 0;
+    display: block;
+    width: 3px;
+    margin-top: 100px;
+}
+.graphic-services img{
+    width: 500px;
+    height: auto;
+    float: right;
+}
+.graphic-services .left-col{
+    margin: 70px;
+}
+.experience{
+    background-color: #0A1821;
+}
+.experience .bg-card{
+    background-color: transparent;
+    transition: 0.3s ease;
+    width: 150px;
+    height: 200px;
+    background-color: red;
+}
+.experience .card img{
+    width: 70px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.experience  .circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #1F3A4B;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+.experience .carousel-inner{
     padding: 50px;
+}
+.experience .vertical-line{
+    writing-mode: vertical-rl;
+    margin-top: -40px;
 }
 
 
